@@ -3,7 +3,11 @@ This project aimed to build a data pipeline from Apache Kafka to Hadoop, enablin
 
 Methods: Two approaches were proposed to implement the data pipeline:
 - MongoDB -> Kafka -> Hadoop
+![image](https://github.com/user-attachments/assets/f60129ea-55f7-4865-9e2b-8a86c8e627cf)
+
 - API -> Kafka -> Hadoop
+![image](https://github.com/user-attachments/assets/0ef879ca-7fd9-47d7-b95f-defedb1daa26)
+
 
 Data Used: The data was sourced from the Aviationstack website, which provides real-time and historical flight information. The raw data was then processed and filtered to retain essential details such as flight codes, flight dates, departure and arrival airports, time zones, takeoff times, and airline names.
 
